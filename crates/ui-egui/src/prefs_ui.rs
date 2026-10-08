@@ -1431,7 +1431,6 @@ mod tests {
         assert_eq!(*h.state(), [0x80, 0x80, 0x80]);
     }
 
-
     #[test]
     fn rendering_mode_display_respects_explicit_mode_and_legacy_disable() {
         let legacy = serde_json::json!({"useGpu": false, "gpuBackend": "auto"});
